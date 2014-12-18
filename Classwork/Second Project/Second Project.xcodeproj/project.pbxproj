@@ -14,6 +14,7 @@
 		91D19C0F1A42708B00C0734E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91D19C0D1A42708B00C0734E /* LaunchScreen.xib */; };
 		91D19C1B1A42708B00C0734E /* Second_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D19C1A1A42708B00C0734E /* Second_ProjectTests.swift */; };
 		91D19C261A4272D500C0734E /* www.zaxonusa.com-small-icon-cost.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D19C251A4272D500C0734E /* www.zaxonusa.com-small-icon-cost.png */; };
+		91D19C281A42761700C0734E /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 91D19C271A42761700C0734E /* Unknown.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		91D19C191A42708B00C0734E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91D19C1A1A42708B00C0734E /* Second_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_ProjectTests.swift; sourceTree = "<group>"; };
 		91D19C251A4272D500C0734E /* www.zaxonusa.com-small-icon-cost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "www.zaxonusa.com-small-icon-cost.png"; sourceTree = "<group>"; };
+		91D19C271A42761700C0734E /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		91D19C241A4272CA00C0734E /* images */ = {
 			isa = PBXGroup;
 			children = (
+				91D19C271A42761700C0734E /* Unknown.jpeg */,
 				91D19C251A4272D500C0734E /* www.zaxonusa.com-small-icon-cost.png */,
 			);
 			name = images;
@@ -207,6 +210,7 @@
 				91D19C0F1A42708B00C0734E /* LaunchScreen.xib in Resources */,
 				91D19C261A4272D500C0734E /* www.zaxonusa.com-small-icon-cost.png in Resources */,
 				91D19C0C1A42708B00C0734E /* Images.xcassets in Resources */,
+				91D19C281A42761700C0734E /* Unknown.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
