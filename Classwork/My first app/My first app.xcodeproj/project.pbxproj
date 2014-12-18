@@ -13,6 +13,7 @@
 		91D19BDB1A42669B00C0734E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D19BDA1A42669B00C0734E /* Images.xcassets */; };
 		91D19BDE1A42669B00C0734E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91D19BDC1A42669B00C0734E /* LaunchScreen.xib */; };
 		91D19BEA1A42669B00C0734E /* My_first_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D19BE91A42669B00C0734E /* My_first_appTests.swift */; };
+		91D19BF41A426E5700C0734E /* kitty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91D19BF31A426E5700C0734E /* kitty.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		91D19BE31A42669B00C0734E /* My first appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My first appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D19BE81A42669B00C0734E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91D19BE91A42669B00C0734E /* My_first_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_first_appTests.swift; sourceTree = "<group>"; };
+		91D19BF31A426E5700C0734E /* kitty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitty.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		91D19BD01A42669B00C0734E /* My first app */ = {
 			isa = PBXGroup;
 			children = (
+				91D19BF51A426E8A00C0734E /* images */,
 				91D19BD31A42669B00C0734E /* AppDelegate.swift */,
 				91D19BD51A42669B00C0734E /* ViewController.swift */,
 				91D19BD71A42669B00C0734E /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				91D19BE81A42669B00C0734E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91D19BF51A426E8A00C0734E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				91D19BF31A426E5700C0734E /* kitty.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91D19BD91A42669B00C0734E /* Main.storyboard in Resources */,
+				91D19BF41A426E5700C0734E /* kitty.jpg in Resources */,
 				91D19BDE1A42669B00C0734E /* LaunchScreen.xib in Resources */,
 				91D19BDB1A42669B00C0734E /* Images.xcassets in Resources */,
 			);
