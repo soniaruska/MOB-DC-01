@@ -192,13 +192,13 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="7hX-Vb-ZcU"/>
-                                <exclude reference="SrX-at-Gc9"/>
-                                <exclude reference="nAW-41-Yfe"/>
                                 <exclude reference="YJ6-sT-I4e"/>
                                 <exclude reference="lrC-Qn-pnP"/>
                                 <exclude reference="sj4-SV-Lv9"/>
                                 <exclude reference="xJL-Ye-qnG"/>
+                                <exclude reference="7hX-Vb-ZcU"/>
+                                <exclude reference="SrX-at-Gc9"/>
+                                <exclude reference="nAW-41-Yfe"/>
                                 <exclude reference="YuE-0A-k67"/>
                                 <exclude reference="e0Y-7B-Hy3"/>
                                 <exclude reference="vCv-36-Fo0"/>
@@ -209,17 +209,17 @@
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="constraints">
-                                <include reference="7hX-Vb-ZcU"/>
-                                <exclude reference="KjR-FJ-L1L"/>
-                                <include reference="SrX-at-Gc9"/>
-                                <exclude reference="e1h-7A-Bl3"/>
-                                <include reference="nAW-41-Yfe"/>
                                 <exclude reference="5AO-aF-6hn"/>
                                 <exclude reference="K2i-aL-hF5"/>
                                 <include reference="YJ6-sT-I4e"/>
                                 <include reference="lrC-Qn-pnP"/>
                                 <include reference="sj4-SV-Lv9"/>
                                 <include reference="xJL-Ye-qnG"/>
+                                <include reference="7hX-Vb-ZcU"/>
+                                <exclude reference="KjR-FJ-L1L"/>
+                                <include reference="SrX-at-Gc9"/>
+                                <exclude reference="e1h-7A-Bl3"/>
+                                <include reference="nAW-41-Yfe"/>
                                 <include reference="YuE-0A-k67"/>
                                 <include reference="e0Y-7B-Hy3"/>
                                 <exclude reference="nUj-YY-atY"/>
