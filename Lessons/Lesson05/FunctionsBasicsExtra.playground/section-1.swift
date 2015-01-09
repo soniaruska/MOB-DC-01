@@ -110,7 +110,7 @@ func calculateAge(yearOfBirth:Int) -> Int {
 // After that you will print a line that states "{name}, my age is {age}", where {age} is the var of course!
 func tellNameAndAge(name:String, birthYear:Int) {
     var age = calculateAge(birthYear)
-    println("\(name), your age is \(age)")
+    println("\(name), my age is \(age)")
 }
 
 // Call knock knock
