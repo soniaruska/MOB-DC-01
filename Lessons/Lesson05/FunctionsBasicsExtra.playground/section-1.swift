@@ -11,7 +11,7 @@ We generally use functions for actions we might need more than once
 The easiest dumbest functions don't expect things (parameters) and give no things back
 The way we call the most easy function is just it's function name followed by parentheses
 Example:
-knockknock()
+    knockknock()
 Everytime we call the knockknock function like this it will be executed once
 A function will ALWAYS have the parentheses
 
@@ -19,9 +19,9 @@ Within a function we can literally do whatever we want except create a new funct
 But we can create variables, constants, loops, if statements, call other functions and so on
 To call another function within a function we do the same thing again
 Example:
-func doTheKnockKnock() {
-knockknock()
-}
+    func doTheKnockKnock() {
+        knockknock()
+    }
 Of course this example doesn't make any sense but just to show how that would work.
 
 
@@ -29,25 +29,25 @@ Functions can also accept parameters, from one to a lot of them, try to limit th
 To add a parameter to a function we first choose a name for that parameter followed by it's type
 parameterName:parameterType
 Example:
-func driveToCity(cityName:String) {
-println("I'm driving to \(cityName)")
-}
+    func driveToCity(cityName:String) {
+        println("I'm driving to \(cityName)")
+    }
 Note that cityName can be name or destination instead, doesn't matter.
 cityName will only be accesible and known to our code within the driveToCity block
 To accept multiple parameters we comma seperate them
 Example:
-func calculateDistanceBetweenCities(departureCity:String, destinationCity:string) {
-let magicalDistance = some magical formula to calculate the distance that returns an Int
-println("The distance between \(departureCity) and \(destinationCity) is \(magicalDistance)")
-}
+    func calculateDistanceBetweenCities(departureCity:String, destinationCity:string) {
+        let magicalDistance = some magical formula to calculate the distance that returns an Int
+        println("The distance between \(departureCity) and \(destinationCity) is \(magicalDistance)")
+    }
 
 
 And finally a function can return stuff to us that we can save or use
 When we want our function to return something we have to indicate that using the "->" followed by the datatype
 Example
-func calculateDistanceBetweenCities(departureCity:String, destinationCity:String) -> Int {
-return magicalDistance
-}
+    func calculateDistanceBetweenCities(departureCity:String, destinationCity:String) -> Int {
+        return magicalDistance
+    }
 We're telling Xcode this function will return an integer, you return something using the return keyword!
 
 We can save the return value of a function into a var/let like this:
