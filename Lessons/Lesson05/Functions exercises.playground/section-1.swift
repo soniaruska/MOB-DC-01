@@ -86,9 +86,13 @@ fib(9)
 
 // BONUS TODO: Write a function that accepts a string and returns a boolean indicating whether a string is a palindrome (reads the same backwards or forwards).
 
+<<<<<<< HEAD
 
 
 // BONUS TODO: Write a function that takes in two strings and returns a boolean indicating whether the two strings
+=======
+// BONUS TODO: Write a function that takes in two strings and returns a boolean indicating whether the two strings are equal
+>>>>>>> 75fe6d606386e812cc6c6bfda4052081f91bcab6
 
 
 
