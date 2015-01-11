@@ -128,14 +128,12 @@ let buzz = 5
 for var i = 1; i <= 100; ++i {
     if ((i % fizz) == 0 && (i % buzz) == 0) {
         println("FizzBuzz")
-    }  else if ((i % fizz) == 0) {
+    }  else if i % fizz == 0 {
         println("Fizz")
-    }  else if ((i % buzz) == 0) {
+    }  else if (i % buzz) == 0 {
         println("Buzz")
     }else {
         println(i)
-    }
-}
 
 
 
