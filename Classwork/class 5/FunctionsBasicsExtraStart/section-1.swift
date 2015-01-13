@@ -120,7 +120,7 @@ calculateAge(1981)
 // The function will have one var: age, you will call the calculateAge function and store the return value in that var
 // After that you will print a line that states "{name}, my age is {age}", where {age} is the var of course!
 
-func tellNameAndAge(name: String, age: Int) {
+func tellNameAndAge(name:String, age:Int) {
     var age = calculateAge(1984)
     println("\(name), my age is \(age)")
 }
