@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+class Animal {
+    var name = ""
+    var species = ""
+    
+    func stringRepresentation() -> String {
+        return ("The animal is a \(self.species), it's name is \(self.name).")
+    }
+}

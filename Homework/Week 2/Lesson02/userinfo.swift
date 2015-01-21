@@ -7,3 +7,30 @@
 //
 
 import Foundation
+
+class UserInfo {
+    var name = ""
+    var age = ""
+    
+    func stringRepresentation() -> String {
+        return ("Hello \(name), you are \(age) years old!")
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

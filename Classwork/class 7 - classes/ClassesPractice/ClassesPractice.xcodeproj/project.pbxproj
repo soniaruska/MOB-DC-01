@@ -13,6 +13,7 @@
 		91201A271A673D0200374A38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91201A261A673D0200374A38 /* Images.xcassets */; };
 		91201A2A1A673D0200374A38 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91201A281A673D0200374A38 /* LaunchScreen.xib */; };
 		91201A361A673D0200374A38 /* ClassesPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91201A351A673D0200374A38 /* ClassesPracticeTests.swift */; };
+		91201A421A67400B00374A38 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91201A411A67400B00374A38 /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		91201A2F1A673D0200374A38 /* ClassesPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassesPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91201A341A673D0200374A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91201A351A673D0200374A38 /* ClassesPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesPracticeTests.swift; sourceTree = "<group>"; };
+		91201A411A67400B00374A38 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		91201A431A674FD100374A38 /* ClassesExamples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ClassesExamples.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				91201A261A673D0200374A38 /* Images.xcassets */,
 				91201A281A673D0200374A38 /* LaunchScreen.xib */,
 				91201A1D1A673D0200374A38 /* Supporting Files */,
+				91201A411A67400B00374A38 /* Animal.swift */,
+				91201A431A674FD100374A38 /* ClassesExamples.playground */,
 			);
 			path = ClassesPractice;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 			files = (
 				91201A221A673D0200374A38 /* ViewController.swift in Sources */,
 				91201A201A673D0200374A38 /* AppDelegate.swift in Sources */,
+				91201A421A67400B00374A38 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
