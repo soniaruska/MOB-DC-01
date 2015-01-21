@@ -31,3 +31,13 @@
 // BONUS TODO: Write a function that takes in two strings and returns a boolean indicating whether the two strings are equal
 
 // BONUS TODO: Write a function that accepts two parameters, a string and a function that accepts a string and returns a string. Print the result of passing the string into the function 10 times.
+import UIKit
+
+class FirstViewController:UIViewController {
+    var sum = 0;
+    
+    func addButton() {
+        let newNumber = numberField.text.toInt()
+        sum += newNumber
+    }
+}
