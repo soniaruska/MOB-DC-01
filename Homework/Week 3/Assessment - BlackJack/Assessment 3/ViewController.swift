@@ -9,9 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    
-    
     // BlackJack game: Create a a game of Blackjack
     // ************* Baseline requirements:
     // ** Set up Player class and CardGame class in their respective provided files. Follow the protocol rules for the CardGame class.

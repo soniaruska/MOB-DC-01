@@ -13,6 +13,9 @@
 		91CA17141A7529CB00E74178 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CA17131A7529CB00E74178 /* Images.xcassets */; };
 		91CA17171A7529CB00E74178 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91CA17151A7529CB00E74178 /* LaunchScreen.xib */; };
 		91CA17231A7529CB00E74178 /* BlackJackGame2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA17221A7529CB00E74178 /* BlackJackGame2Tests.swift */; };
+		91CA172D1A752A2200E74178 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA172C1A752A2200E74178 /* SecondViewController.swift */; };
+		91CA17311A752CB800E74178 /* CardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA17301A752CB800E74178 /* CardGame.swift */; };
+		91CA17331A752CE800E74178 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA17321A752CE800E74178 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		91CA171C1A7529CB00E74178 /* BlackJackGame2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackJackGame2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91CA17211A7529CB00E74178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91CA17221A7529CB00E74178 /* BlackJackGame2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackGame2Tests.swift; sourceTree = "<group>"; };
+		91CA172C1A752A2200E74178 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		91CA17301A752CB800E74178 /* CardGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardGame.swift; sourceTree = "<group>"; };
+		91CA17321A752CE800E74178 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				91CA17131A7529CB00E74178 /* Images.xcassets */,
 				91CA17151A7529CB00E74178 /* LaunchScreen.xib */,
 				91CA170A1A7529CB00E74178 /* Supporting Files */,
+				91CA17301A752CB800E74178 /* CardGame.swift */,
+				91CA17321A752CE800E74178 /* Player.swift */,
+				91CA172C1A752A2200E74178 /* SecondViewController.swift */,
 			);
 			path = BlackJackGame2;
 			sourceTree = "<group>";
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91CA172D1A752A2200E74178 /* SecondViewController.swift in Sources */,
 				91CA170F1A7529CB00E74178 /* ViewController.swift in Sources */,
 				91CA170D1A7529CB00E74178 /* AppDelegate.swift in Sources */,
+				91CA17331A752CE800E74178 /* Player.swift in Sources */,
+				91CA17311A752CB800E74178 /* CardGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

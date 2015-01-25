@@ -13,6 +13,8 @@
 		91C37DCD1A7090880008A0C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C37DCC1A7090880008A0C2 /* Images.xcassets */; };
 		91C37DD01A7090880008A0C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91C37DCE1A7090880008A0C2 /* LaunchScreen.xib */; };
 		91C37DDC1A7090880008A0C2 /* View_demosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C37DDB1A7090880008A0C2 /* View_demosTests.swift */; };
+		91C37DEA1A70912C0008A0C2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C37DE91A70912C0008A0C2 /* SecondViewController.swift */; };
+		91C37DEC1A7091410008A0C2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C37DEB1A7091410008A0C2 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		91C37DD51A7090880008A0C2 /* View demosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "View demosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C37DDA1A7090880008A0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91C37DDB1A7090880008A0C2 /* View_demosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_demosTests.swift; sourceTree = "<group>"; };
+		91C37DE91A70912C0008A0C2 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		91C37DEB1A7091410008A0C2 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				91C37DCC1A7090880008A0C2 /* Images.xcassets */,
 				91C37DCE1A7090880008A0C2 /* LaunchScreen.xib */,
 				91C37DC31A7090880008A0C2 /* Supporting Files */,
+				91C37DE91A70912C0008A0C2 /* SecondViewController.swift */,
+				91C37DEB1A7091410008A0C2 /* ThirdViewController.swift */,
 			);
 			path = "View demos";
 			sourceTree = "<group>";
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C37DEA1A70912C0008A0C2 /* SecondViewController.swift in Sources */,
 				91C37DC81A7090880008A0C2 /* ViewController.swift in Sources */,
+				91C37DEC1A7091410008A0C2 /* ThirdViewController.swift in Sources */,
 				91C37DC61A7090880008A0C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

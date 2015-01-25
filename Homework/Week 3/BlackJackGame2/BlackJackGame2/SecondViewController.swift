@@ -10,8 +10,12 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var gameRules: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        gameRules.text = "1. Tap twice on green box to get dealt another card. \n2. Swipe right to stop dealing cards and compare your score to CPU's \n3. If your score goes above 21, you lose."
 
         // Do any additional setup after loading the view.
     }
@@ -21,15 +25,8 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func backToGame(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
-    */
-
 }
