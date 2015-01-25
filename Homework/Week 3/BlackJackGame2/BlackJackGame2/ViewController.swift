@@ -10,13 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-//    @IBOutlet weak var dealerCardsValue: UILabel! {
-//        self.dealerCardsValue.text = "Dealer has \(self.game.dealerSum)"
-//    }
 
     @IBOutlet weak var statusLabel: UILabel!
     var game = CardGame()
     
+    @IBOutlet weak var dealerCardsValue: UILabel!
 
     
     
@@ -41,10 +39,10 @@ class ViewController: UIViewController {
     
     @IBAction func swipeRightToEndGame(sender: UISwipeGestureRecognizer) {
         if self.game.playerSum > self.game.dealerSum && self.game.playerSum < 22 {
-            self.statusLabel.text = "You win! Dealer value is \(self.game.dealerSum)."
+            self.statusLabel.text = "You win! \nYour value is \(self.game.playerSum). \nDealer value is \(self.game.dealerSum)."
         }
         else {
-            self.statusLabel.text = "You lose! Dealer valuer is \(self.game.dealerSum)."
+            self.statusLabel.text = "You lose! \nYour value is \(self.game.playerSum). \nDealer valuer is \(self.game.dealerSum)."
         }
     }
     
@@ -74,7 +72,7 @@ class ViewController: UIViewController {
         self.game.initialCards()
         // Do any additional setup after loading the view, typically from a nib.
         self.statusLabel.text = "Your first cards are \(self.game.cardOne) and \(self.game.cardTwo)"
-        
+        self.dealerCardsValue.text = "Dealer has \(self.game.dealerSum)."
         
     }
 

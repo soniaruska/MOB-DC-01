@@ -28,13 +28,13 @@
                                     <segue destination="8N6-jc-gKb" kind="show" id="Knv-c8-zhz"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6TK-ip-fbn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6TK-ip-fbn">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="53" width="368" height="55"/>
+                                    <rect key="frame" x="16" y="53" width="368" height="152"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lG-R5-f5e">
@@ -79,7 +79,7 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="dealerCardsValue" destination="1lG-R5-f5e" id="VJF-Lc-dV7"/>
+                        <outlet property="dealerCardsValue" destination="1lG-R5-f5e" id="vAZ-3r-oHZ"/>
                         <outlet property="statusLabel" destination="6TK-ip-fbn" id="yFb-bA-R91"/>
                     </connections>
                 </viewController>

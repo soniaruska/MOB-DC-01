@@ -30,7 +30,7 @@ class CardGame: BlackJack {
     }
     
 
-    func deal(){
+    func deal() {
         self.newCard = Int(arc4random_uniform(10)+1)
         self.playerSum = self.newCard + self.playerSum
     }
