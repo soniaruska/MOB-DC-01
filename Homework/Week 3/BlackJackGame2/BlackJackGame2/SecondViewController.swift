@@ -15,7 +15,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        gameRules.text = "1. Tap twice on green box to get dealt another card. \n2. Swipe right to stop dealing cards and compare your score to CPU's \n3. If your score goes above 21, you lose."
+        gameRules.text = "1. Tap twice on green box to get dealt another card. \n\n2. Swipe right to stop dealing cards and compare your score to CPU's \n\n3. If your score goes above 21, you lose."
 
         // Do any additional setup after loading the view.
     }

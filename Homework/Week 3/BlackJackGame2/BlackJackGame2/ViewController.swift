@@ -30,7 +30,7 @@ class ViewController: UIViewController {
             
         }
         if game.playerSum > 21 {
-            self.statusLabel.text = "You went over, you lose!"
+            self.statusLabel.text = "You went over, you lose! \nYour value is \(self.game.playerSum)."
         }
         
         
@@ -83,4 +83,5 @@ class ViewController: UIViewController {
 
 
 }
+
 
