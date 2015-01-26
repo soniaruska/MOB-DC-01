@@ -3,7 +3,7 @@
 //  Copyright (c) 2015 Tedi Konda. All rights reserved.
 //
 
-// Lesson 7-9 cheat sheet
+// Lesson 8-9 cheat sheet
 
 /******************************* Animations ************************************/
 // 0.5 is the animationduration
