@@ -4,10 +4,10 @@ import UIKit
 class ArrayTableViewController: UITableViewController {
     
     /*
-        TODO five: Populate the table view with the contents of animalArray.
+        TODO five: create an array of to do tasks inside this class
+        TODO six: populate the table view with the contents of the newly created array.
         Bonus: Add delete cell on swipe feature.
     */
-    let animalArray = [Animal(name: "Rover"), Animal(name: "Mittens"), Animal(name: "Ein"), Animal(name: "Sadie")]
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
