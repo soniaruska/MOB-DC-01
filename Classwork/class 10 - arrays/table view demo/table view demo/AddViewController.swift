@@ -1,17 +1,27 @@
 //
-//  SEcondViewController.swift
-//  Table Views and Scenes
+//  AddViewController.swift
+//  table view demo
 //
-//  Created by Sonia Ourmaonva on 1/26/15.
+//  Created by Sonia Ourmaonva on 1/28/15.
 //  Copyright (c) 2015 Sonia Ourmaonva. All rights reserved.
 //
 
 import UIKit
 
-class SEcondViewController: UIViewController {
+protocol Campus {
+    func addCampusToArray(campusName: String)
+}
 
-    @IBAction func goBackToFirstVC(sender: AnyObject) {
-        self.navigationController?.popViewControllerAnimated(true)
+class AddViewController: UIViewController {
+
+    @IBOutlet var addTextBox: UITextField!
+    var delegate: Campus?
+    //our delegate is Campus and this needs to be an optional in case there is nothing to pass
+    
+    @IBAction func saveAndGoBack(sender: AnyObject) {
+        self.delegate?.addCampusToArray(addTextBox.text)
+        //delegate refers to the table view controller with the parameter from the text box in the addVC
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     override func viewDidLoad() {

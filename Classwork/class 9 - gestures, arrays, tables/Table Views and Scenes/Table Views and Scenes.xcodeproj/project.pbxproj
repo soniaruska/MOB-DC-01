@@ -13,6 +13,8 @@
 		912EC2451A770BB10089AEBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912EC2441A770BB10089AEBC /* Images.xcassets */; };
 		912EC2481A770BB10089AEBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 912EC2461A770BB10089AEBC /* LaunchScreen.xib */; };
 		912EC2541A770BB10089AEBC /* Table_Views_and_ScenesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912EC2531A770BB10089AEBC /* Table_Views_and_ScenesTests.swift */; };
+		91AAE0D11A771B54009AF378 /* SEcondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AAE0D01A771B54009AF378 /* SEcondViewController.swift */; };
+		91AAE0D31A771BE2009AF378 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AAE0D21A771BE2009AF378 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		912EC24D1A770BB10089AEBC /* Table Views and ScenesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table Views and ScenesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		912EC2521A770BB10089AEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		912EC2531A770BB10089AEBC /* Table_Views_and_ScenesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_Views_and_ScenesTests.swift; sourceTree = "<group>"; };
+		91AAE0D01A771B54009AF378 /* SEcondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEcondViewController.swift; sourceTree = "<group>"; };
+		91AAE0D21A771BE2009AF378 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				912EC2441A770BB10089AEBC /* Images.xcassets */,
 				912EC2461A770BB10089AEBC /* LaunchScreen.xib */,
 				912EC23B1A770BB10089AEBC /* Supporting Files */,
+				91AAE0D01A771B54009AF378 /* SEcondViewController.swift */,
+				91AAE0D21A771BE2009AF378 /* ThirdViewController.swift */,
 			);
 			path = "Table Views and Scenes";
 			sourceTree = "<group>";
@@ -214,6 +220,8 @@
 			files = (
 				912EC2401A770BB10089AEBC /* ViewController.swift in Sources */,
 				912EC23E1A770BB10089AEBC /* AppDelegate.swift in Sources */,
+				91AAE0D31A771BE2009AF378 /* ThirdViewController.swift in Sources */,
+				91AAE0D11A771B54009AF378 /* SEcondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				912EC2591A770BB10089AEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		912EC25A1A770BB10089AEBC /* Build configuration list for PBXNativeTarget "Table Views and ScenesTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				912EC25C1A770BB10089AEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

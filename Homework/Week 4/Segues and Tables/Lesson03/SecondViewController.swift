@@ -10,8 +10,13 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBAction func dismissModule(sender: AnyObject) {
+            self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
     }
