@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "table view demo/TableViewController.swift"
+            timestampString = "444506472.146225"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "table_view_demo.TableViewController.__deallocating_deinit"
+                  moduleName = "table view demo"
+                  urlString = "file:///Users/soniaourmaonva/Documents/MOB-DC-01/Classwork/class%2010%20-%20arrays/table%20view%20demo/table%20view%20demo/TableViewController.swift"
+                  timestampString = "444506472.160545"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc table_view_demo.TableViewController.__ivar_destroyer"
+                  moduleName = "table view demo"
+                  urlString = "file:///Users/soniaourmaonva/Documents/MOB-DC-01/Classwork/class%2010%20-%20arrays/table%20view%20demo/table%20view%20demo/TableViewController.swift"
+                  timestampString = "444506472.16072"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
