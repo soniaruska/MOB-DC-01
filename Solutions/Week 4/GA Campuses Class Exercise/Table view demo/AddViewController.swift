@@ -12,9 +12,11 @@ protocol Campus {
     func addCampusToArray(campusName: String)
 }
 
-class AddViewController: UIViewController {
+class AddViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var addTextBox: UITextField!
+    
+    @IBOutlet var errorMessage: UILabel!
     
     var delegate: Campus?
     
@@ -25,9 +27,24 @@ class AddViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
 
+        self.addTextBox.delegate = self
+        self.errorMessage.hidden = true
+        
+        func textFieldShouldReturn(textField: UITextField) -> Bool {
+            if self.addTextBox.text.isEmpty {
+                println("Your text field is empty, enter something!")
+                textField.resignFirstResponder()
+                self.errorMessage.hidden = false
+            }else{
+                self.errorMessage.hideen = true
+            }
+            return true
+        }
+        // Do any additional setup after loading the view.
+    
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

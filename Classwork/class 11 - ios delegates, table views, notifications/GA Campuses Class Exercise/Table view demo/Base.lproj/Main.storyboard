@@ -91,7 +91,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AaE-S3-Pjk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text field is empty, enter something!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AaE-S3-Pjk">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -100,6 +100,29 @@
                                     <rect key="frame" x="16" y="217" width="368" height="21"/>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hidden label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OiV-YR-QgU">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="152" y="423" width="97" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unM-lY-PJq">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Post notification">
+                                    <color key="titleColor" red="1" green="0.15638641070000001" blue="0.13604497639999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="131" y="492" width="139" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="pressPostButton:" destination="x5v-ez-zer" eventType="touchUpInside" id="E9U-pQ-I9b"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -119,6 +142,8 @@
                                 <exclude reference="Ha6-Og-uoT"/>
                                 <exclude reference="jDA-Nl-LbS"/>
                                 <exclude reference="AaE-S3-Pjk"/>
+                                <exclude reference="OiV-YR-QgU"/>
+                                <exclude reference="unM-lY-PJq"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="2g5-P6-84R"/>
@@ -138,6 +163,8 @@
                                 <include reference="Ha6-Og-uoT"/>
                                 <include reference="jDA-Nl-LbS"/>
                                 <include reference="AaE-S3-Pjk"/>
+                                <include reference="OiV-YR-QgU"/>
+                                <include reference="unM-lY-PJq"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="2g5-P6-84R"/>
@@ -155,6 +182,7 @@
                     <connections>
                         <outlet property="addTextBox" destination="2my-Iz-Xph" id="ZCD-8j-7kD"/>
                         <outlet property="errorMessage" destination="AaE-S3-Pjk" id="FHC-Pr-F8l"/>
+                        <outlet property="hiddenLabel" destination="OiV-YR-QgU" id="6kI-ql-UR2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ONF-XN-six" userLabel="First Responder" sceneMemberID="firstResponder"/>

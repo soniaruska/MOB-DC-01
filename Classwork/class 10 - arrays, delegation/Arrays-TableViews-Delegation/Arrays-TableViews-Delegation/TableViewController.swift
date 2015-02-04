@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewController: UITableViewController {
+class TableViewController: UITableViewController, ToDoList {
 
     
     var myToDoList: [String] = ["sleep", "shower", "eat", "go to work", "read a little", "watch tv"]
@@ -20,7 +20,7 @@ class TableViewController: UITableViewController {
     @IBAction func addTask(sender: AnyObject) {
         var addVC = self.storyboard?.instantiateViewControllerWithIdentifier("addTaskVC") as addTaskViewController
         
-//        addVC.delegate = self
+        addVC.delegate = self
         
         self.presentViewController(addVC, animated: true, completion: nil)
     }
